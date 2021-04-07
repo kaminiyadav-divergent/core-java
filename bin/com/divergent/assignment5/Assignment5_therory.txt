@@ -1,0 +1,43 @@
+1.When should the private methods be used in a class?
+Ans: Private methods are used for breaking the task into smaller task.it is also called helper methods.
+
+2. Do we need encapsulation for constants?
+Ans: no there is no need of encapsulation for constant.
+
+3.What are two benefits of using the Factory methods?
+Ans: factory methods allows the subclass to choose the type of object.
+	A factory method can have better name from that describes what they do.
+4. Overloading is runtime or compiletime?
+Ans: Overloading is compile time.
+
+5. What are the three ways of initializing instance variables?
+Ans: You can initialize variables of a class using
+     1. Final method
+     2. constructors
+     3. Instance initialization blocks
+
+6. What is constructor chaining?
+Ans : It is a process of calling one constructor from another constructor w.r.t current object within the same class.
+
+7. Use a static block initialization block to show it use.
+Ans: static initialization Block can only initialize the static instance variables. Thest block are only executed once when the class is loaded.
+
+8.  Use a non static block initialization block to show it use.
+Ans: Instance variables are initialized using non static initialization block. These block are executed when the 
+object is created and before the invocation of the constructor.
+
+9. what is static Import?
+Ans: with the help of static import we can access the static members of the class directly without the class name or ant object. for example 
+
+10. Why "finalize" method is deprecated?
+Ans: finalize method is deprecated because of it's behaviour.
+
+11. proper way of naming a package:
+Ans : {domain name in reverse order} . {moodulename}. {Application name}
+example: com.divergent.clinicdatabademanagement
+
+12. What are various class Design guidelines?
+Ans : Always keep data private.
+      Always initialize variables.
+      Name of the class can be Noun or it should reflect their purpose.
+      Method should not contain more than 30-35 lines of code.
